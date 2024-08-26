@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        body {
+            font-family: 'work sans', Arial, Helvetica, sans-serif;
+            /*
+            Medidas Absolutas:
+             cm, mm, in(polegada), px, pt, pc(paica)
+
+            Medidas Relativas:
+            em(relativa ao tamanho atual da fonte), ex(relativa a altura x da fonte), rem(relativo ao rud, a fonte que está configurada no body), vw(largura da view port, tamanho da sua tela) vh(altura da view port) %
+
+            16px geralmente é um 1em
+            */
+
+            font-size: 1.3em;
+            /* lighter, normal, bold, bolder */
+            /* 100 - 900 */
+        }
+
+        h1 {
+            /* shorthand font
+            - font-style -> font-weigth -> font-size -> font-family */
+            font: italic bold 2em 'Work Sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 1.7em 'Work Sans', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aperiam ad necessitatibus nobis ducimus molestias aspernatur, consectetur laudantium doloremque officia fugiat et non omnis in a excepturi possimus minus tempora. Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima amet eligendi, accusantium, quas soluta corporis omnis dolorem fugiat fuga facere laudantium quos beatae repellat excepturi, sint ipsa minus explicabo! Nemo!</p>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, ut reprehenderit! Hic quaerat, aperiam expedita nihil, ipsum quisquam modi, perferendis illum officiis accusantium impedit deleniti sint? Voluptatem exercitationem deleniti itaque!</p>
+    <h2>Subtítulo do Exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur sed aut expedita fuga nulla laboriosam ut voluptates pariatur ullam aliquid reprehenderit iste maiores doloremque at provident, ad obcaecati dicta officiis.</p>
+</body>
+</html>
