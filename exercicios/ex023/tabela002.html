@@ -19,17 +19,24 @@
             padding: 10px;
         }
 
+        caption {
+            font-size: 1.3em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+
         td.num {
             text-align: right;
         }
 
         thead {
-            background-color: gray;
+            background-color: rgb(73, 73, 73);
             color: white;
         }
 
         tfoot {
-            background-color: gray;
+            background-color: rgb(73, 73, 73);
             color: white;
         }
 
@@ -40,6 +47,7 @@
     <!--
         ANATOMIA ARA TABELAS GRANDES
         TABLE
+            CAPTION
             THEAD
                 TR, TD, TH
             TBODY
@@ -49,10 +57,11 @@
     -->
     
     <table>
+        <caption>População das Unidades Federativas em 2020</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -167,7 +176,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td class="num"><strong>210.147.125</strong></td>
             </tr>
         </tfoot>
